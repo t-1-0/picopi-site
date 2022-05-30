@@ -1,0 +1,14 @@
+        
+        
+        
+        <div class="two">
+          <img src="https://t-1-0.github.io/images/raspberry.png">
+        </div>
+        <div class="two">
+          <h2>Raspberry Pi 4 Model B</h2>
+          <p>Comes with 1gb of RAM. Powerful enough to run simple programs such as Pico-8</p>
+        </div>
+        <div class="two">
+          <h2>Pico-8</h2>
+          <p></p>
+        </div>

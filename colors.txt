@@ -1,0 +1,4 @@
+#E6BA95 - pink
+#FAFDD6 - light yellow
+#E4E9BE - light green
+#A2B38B - darker green
