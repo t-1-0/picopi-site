@@ -10,42 +10,67 @@
   <body>
     <div class="content">
       <div class="header">
-        <h1>PicoPi</h1>
+        <h1>Make n' Play</h1>
+        
       </div>
 
       <div class="content2">
-        <h2>Our Product</h2>
-        <p>The PicoPi console is a DIY console that lets your creativity unleash. Once you buy it, you will get access to free online courses that teach you 3 important skills - programming, electronics, and engineering.</p>
+        <h2>Our Product: The PicoPi</h2>
+        
+        <p>The PicoPi console is a 80 dollar console (with hundreds of games for free!) with the puorpose of cheap and affordable gaming. It also allows for users to let their creativity run wild, redesinging the hardware and making software for it with ease, with help for our courses.</p>
+        
+        <img src='https://media.discordapp.net/attachments/981670119002472470/981708635828801586/unknown.png' width=20%>
+        <img src='https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.4sXsnBAo0Xvk_XAjY0voyQHaHa%26pid%3DApi&f=1' width=10%>
+        <img src='https://media.discordapp.net/attachments/981670119002472470/981686704878522399/IMG_3113.JPG?width=828&height=621' width=30%>
+      <img src='https://media.discordapp.net/attachments/897257197782851585/981684397474463805/IMG_5331.jpg?width=828&height=621' width=30%>
       </div>
 
-      <button class="block2" onclick="window.location.href = '/picopi-site/about.html'">
-        <h2>Learn more</h2>
+      
+
+      <button class="block2" onclick="window.location.href = 'our-cause.html'">
+        <h2>Our Problem</h2>
       </button>
 
       <div class="content2">
         <h2>Who are we?</h2>
-        <p>We are 3 middle schoolers who made a revolutionary console for only 60 dollars. Best part? You can build it yourself!</p>
+        <p>We are 3 middle schoolers. Click one of the icons to learn more about us.</p>
       </div>
 
-      <div class="block1 buttonpic" onclick="window.location.href ='about-us.html'">
+      <div class="block1 buttonpic">
         <div class="three">
-          <img src="https://t-1-0.github.io/images/1.png">
+          <img src="https://t-1-0.github.io/images/1.png" class="buttonpic" onclick="ShowDiv(one)">
         </div>
         <div class="three">
-            <img src="https://t-1-0.github.io/images/2.png">
+            <img src="https://t-1-0.github.io/images/2.png" class="buttonpic" onclick="ShowDiv(two)">
           </div>
         <div class="three">
-            <img src="https://t-1-0.github.io/images/3.png">
+            <img src="https://t-1-0.github.io/images/3.png" class="buttonpic" onclick="ShowDiv(three)">
         </div>
+      </div>
+
+      <div class="block2" id="one" style="display:none">
+        <h2>TJ Miyabe: Web Developer and Buissnes Manager</h2>
+        <p>I'm in 7th grade and I love graphic design, HTML coding, cats, and the color green.</p>
+      </div>
+      <div class="block2" id="two" style="display:none">
+        <h2>Kavan Abayanayaka: Pico-8 Specialist and Software Manager</h2>
+        <p>Exists. Also likes progamming and animating. Oddly enough, happens to be in 8th grade.</p>
+      </div>
+      <div class="block2" id="three" style="display:none">
+        <h2>Ethan Chereau: Hardware Specialist and Computer Expert</h2>
+        <p>EXITS! IMPORTANT. PLEASE DO NOT MISTAKE FOR NOT EXISTING. Average 8th grade computer enjoyer. Also makes great buttons.</p>
       </div>
         
         
     </div>
     <div class="nav">
-      <a href="buy.html">Buy one</a>
-      <a href="about.html">About this product</a>
-      <a href="our-cause.html">Our Cause</a>
+      <a href="buy.html">Buy PicoPi</a>
+      <img src='https://media.discordapp.net/attachments/981670119002472470/981706216726229052/picopi.png?width=932&height=621' width=75%>
+      <a href="our-cause.html">Problem</a>
+      <a href="about.html">Solution</a>
       <a href="about-us.html">About Us</a>
+      <img src='https://media.discordapp.net/attachments/981670119002472470/981699530393276436/logo-removebg-preview.png' width=100% class='.center'>
+      
     </div>
   </body>
 </html>
